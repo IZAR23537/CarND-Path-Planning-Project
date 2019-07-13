@@ -114,3 +114,4 @@ Our car has three simple option about how to deal with this situation.
 For the smooth path trajectory generation we use a list of widely spaced (x,y) waypoints, which are evenly spaced (30m). In order to generate the new trajectory, the simulator uses the car's current state or the previous path's end point. In Frenet, we add evenly spaced points (30m) ahead of the starting reference. We create a spline for the smooth curve genration and calculating how to break up the spline points so that we can travel at our desired reference velocity. After filling it with previous points, we fill up the rest of our path planner.
 
 
+# CarND-Path-Planning-Project
